@@ -39,7 +39,7 @@ const start = async () => {
     await connectToDb(process.env.MONGO_URL);
     app.listen(
       port,
-      console.log(`E-Commerce api server started at port port ${port}`)
+      console.log(`api server started at port port ${port}`)
     );
   } catch (error) {
     console.log(error);
